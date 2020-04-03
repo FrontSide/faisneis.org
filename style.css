@@ -42,18 +42,18 @@ body {
 .shop_container {
   width: 30%;
   margin-right: 20px;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .hours_container {
   width: 20%;
   margin-right: 20px;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .note_container {
   width: 20%;
-  font-size: 1.5em;
+  font-size: 1em;
   vertical-align: middle;
   align-self: center;
 }
