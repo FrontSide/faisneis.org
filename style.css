@@ -37,24 +37,32 @@ body {
 .line_container {
   width: 100%;
   display: flex;
-  border-bottom: 1px solid #DDD;
+  border-top: 1px solid #DDD;
+}
+
+.notopborder {
+  border-top: none;
 }
 
 .shop_container {
+  font-size: 20px;
   width: 20%;
   margin-right: 20px;
-  font-size: 2em;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: right;
+  min-width: 100px;
 }
 
 .hours_container {
   padding-top: 20px;
+  padding-bottom: 20px;
   width: 20%;
+  min-width: 100px;
   margin-right: 20px;
-  font-size: 2em;
   text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .elderly {
@@ -76,13 +84,38 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 10px 10px 0px 0px;
-  font-size: 1.7em;
   font-weight: bold;
 }
 
 .note_container {
   width: 20%;
-  font-size: 1em;
   vertical-align: middle;
   align-self: center;
+}
+
+.row_note_container {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .shop_container {
+    min-width: 60px;
+    font-size: 1em;
+  }
+  .hours_container {
+    margin-right: 0px;
+  }
+  .column_note_container {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 801px) {
+  .hours_container {
+    font-size: 1.5em;
+  }
+  .row_note_container {
+    display: none;
+  }
 }
