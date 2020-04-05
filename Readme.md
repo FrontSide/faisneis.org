@@ -19,4 +19,4 @@ HTML, CSS (with bootstrap 3.4), Google Cloud Platform App Engine
 
 #### Info
 
-This website was created
+*faisnéis* is Irish for *information*
